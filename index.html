@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>style-sheet</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    
+      .div2{
+          width:170px;
+          height: 154px;
+          background-color: darkblue;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+          margin: 5px;
+          transition: .5s;
+      }
+      .div1{
+          width: 100%;
+         
+          background-color: yellowgreen;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex-wrap: wrap;
+   
+      }
+      .div2:hover{
+          transform: scale(1.7);
+          /* transform: rotate x (30 degree); */
+          /* transform: rotateX(45degree); */
+          /* transform: translatex(124px); */
+      }
+      .div3{
+          transition: 1s;
+      }
+
+      .div3:hover{
+          /* transform: scale(.6); */
+          /* transform: translate(124px); */
+          transform: translatex(375px);
+      }
+      .paragraph{
+          width: 97.5%;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          padding-left: 1rem;
+          padding-right: 19px;
+          color: darkblue;
+          background-color: darkorchid;
+          line-height: normal;
+          text-align: justify;
+          text-indent: 29px;
+      }
+      .b{
+          font-size: 53px;
+      }
+      #submit{
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 15px;
+          padding-bottom: 12px;
+          background-color: darkorchid;
+          box-shadow: 3px 9px 3px rgb(32, 44, 32);
+      }
+      .form{
+          border: 3px solid gray;
+          margin-top: 23px;
+          padding: 2rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 1s;
+          background-color: wheat;
+      }
+     #password, #username{
+          padding: 4px;
+          border: 4px solid rgb(41, 40, 40);
+          border-radius: 5px;
+         
+      }
+      h1{
+          justify-content: center;
+          color: green;
+          font-size: x-larger;
+      }
+      #username:focus{
+          background-color: seagreen;
+      }
+      #submit:active{
+          background-color: red;
+
+      }
+      #password:hover{
+        box-shadow:inset -2px -13px 3px rgba(63, 57, 87,.6);
+      }
+   #username:hover{
+        box-shadow: -2px -13px 3px rgba(63, 57, 87,.6);
+      }
+    </style>
+</head>
+<body>
+          <h1>Mir-Ahmad form and pictures </h1>
+    <form action="" class="form">
+        User-Name:  <label for="username">
+            <input type="text" value="" id="username">
+        </label>
+        <br><br>
+        Password  :<label for="pssword">
+            <input type="password" id="password">
+        </label>
+        <br><br>
+        Submit  :<label for="submit">
+            <input type="Submit" value="Submit" id="submit">
+        </label>
+        <br><br> <br><br>
+    </form>
+    <div class="div1">
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1214259/pexels-photo-1214259.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="170px" height="154px">
+           
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/3569409/pexels-photo-3569409.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1642228/pexels-photo-1642228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1372134/pexels-photo-1372134.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1580270/pexels-photo-1580270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1253661/pexels-photo-1253661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"  width="170px" height="154px"/>
+        </div>
+         <div class="div2">
+            <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1252811/pexels-photo-1252811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/1808785/pexels-photo-1808785.png?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        <div class="div2">
+            <img src="https://images.pexels.com/photos/2167672/pexels-photo-2167672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+        </div>
+        
+    </div>
+    <div class="paragraph">
+    <b class="b">L</b>orem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam tenetur quisquam et exercitationem, a cumque consequatur error repellendus rem inventore 
+    quo velit! Odit blanditiis placeat aliquid sed deserunt voluptates expedita temporibus ducimus eius, asperiores dolor esse illum rerum adipisci harum veniam 
+    excepturi dolore? Magnam asperiores reprehenderit esse, consequatur eum velit officiis odit hic et obcaecati? Odit ipsum maxime nostrum beatae magnam mollitia, 
+    quidem corporis omnis, laboriosam, sapiente laudantium unde eum velit veritatis voluptas quia iste. Accusantium ratione sint soluta accusamus quibusdam, dolores
+     pariatur necessitatibus. Sequi repellendus cum nobis placeat? Quas officiis laborum mollitia, numquam fugit repellat vel optio voluptates
+     delectus at eligendi fugiat recusandae dolorum consectetur debitis, ut aliquam nobis corporis totam eius assumenda labore quidem 
+     repudiandae quibusdam. Illo temporibus, tempore sapiente libero ipsam quasi a voluptate saepe exercitationem, voluptatem eveniet debitis. 
+    uscipit, aliquam vero. Fugit, asperiores laboriosam ipsa impedit atque non eum veritatis obcaecati cum porro aut animi autem eveniet,
+    corrupti esse ipsum delectus sint eaque iste soluta! Neque molestias sequi alias soluta dolorum voluptatum delectus commodi animi optio
+     facere cum odit sint vero hic consequuntur architecto est itaque, doloribus quam quis cumque expedita accusantium? Deleniti quibusdam,
+     dolore voluptatum veniam eligendi voluptates aperiam vero libero deserunt earum iusto atque nesciunt sapiente dolor harum ducimus nulla
+    quis. Repellat qui voluptatibus dicta consequatur ipsam eaque aliquam magni numquam ullam, dolorem, dolor voluptates in impedit nam,
+     deleniti vitae. Ratione ab eius id exercitationem minus, impedit aperiam doloribus amet blanditiis aspernatur accusantium dolorum 
+    porro excepturi. Earum, ab praesentium? Laborum dolorem quos labore fugit dolorum eligendi accusantium consequuntur, aliquam vel
+     quidem at hic nisi! Nesciunt quos pariatur magni, ullam temporibus vel exercitationem maxime commodi quaerat asperiores unde vitae 
+    officiis autem voluptates eaque facere impedit. Tempora, quis. Repellat tenetur libero inventore numquam recusandae eum autem dicta 
+    saepe unde aliquid maxime ex dolores commodi minima consequuntur nulla blanditiis, necessitatibus reiciendis, quas ad quae illum
+    accusantium dignissimos. Pariatur repudiandae architecto totam id fugit temporibus consequuntur vero repellat reprehenderit natus,
+    saepe sunt ea ipsum. Ducimus asperiores aliquid eaque praesentium earum voluptate a, maiores ut eligendi minus inventore tempore 
+    delectus suscipit, expedita consectetur incidunt soluta obcaecati rem error magnam saepe nam. Doloremque quam aspernatur quos 
+    dolore officiis accusamus explicabo architecto, commodi deserunt velit veritatis repellat ducimus vel temporibus possimus soluta
+    ab animi magnam labore, facilis corporis. Blanditiis vel quod ex rerum neque architecto officia, et deleniti laborum accusantium 
+    quia ea minus laudantium quas odit iste impedit. Quo harum recusandae deleniti animi soluta, necessitatibus sed asperiores. 
+    </div>
+    <div class="div3">
+        <img src="https://images.pexels.com/photos/2167672/pexels-photo-2167672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  width="170px" height="154px"/>
+    </div>
+</body>
+</html>
